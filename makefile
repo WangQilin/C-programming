@@ -1,5 +1,6 @@
-all: printWithoutColon.c
-	gcc -o main printWithoutColon.c
+all: printWithoutColon.c HolyShit.c
+	gcc -o printWithoutColon printWithoutColon.c
+	gcc -o shit HolyShit.c
 
 clean:
-	rm -f main
+	rm -f printWithoutColon shit
