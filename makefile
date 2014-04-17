@@ -1,6 +1,6 @@
-all: printWithoutColon.c HolyShit.c
-	gcc -o printWithoutColon printWithoutColon.c
-	gcc -o shit HolyShit.c
+all: print_hello_world_without_colon.c print_asterisks_without_colon.c
+	gcc -o print_hello_world_without_colon print_hello_world_without_colon.c
+	gcc -o print_asterisks_without_colon print_asterisks_without_colon.c
 
 clean:
-	rm -f printWithoutColon shit
+	rm -f print_hello_world_without_colon print_asterisks_without_colon
